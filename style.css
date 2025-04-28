@@ -1,0 +1,58 @@
+body {
+        margin: 0;
+            padding: 0;
+                font-family: Arial, sans-serif;
+                    color: white;
+                        background: url('https://i.pinimg.com/736x/a7/d1/78/a7d1783d7c066670de81a72fd374e064.jpg') no-repeat center center fixed;
+                            background-size: cover;
+                            }
+
+                            .overlay {
+                                background-color: rgba(0, 0, 0, 0.6); /* lớp tối phủ nhẹ ảnh nền */
+                                    min-height: 100vh;
+                                        display: flex;
+                                            justify-content: center;
+                                                align-items: center;
+                                                    flex-direction: column;
+                                                        text-align: center;
+                                                        }
+
+                                                        .container {
+                                                            padding: 20px;
+                                                            }
+
+                                                            h1 {
+                                                                font-size: 2.8em;
+                                                                    margin-bottom: 10px;
+                                                                    }
+
+                                                                    p {
+                                                                        font-size: 1.2em;
+                                                                            margin-bottom: 30px;
+                                                                            }
+
+                                                                            .links a {
+                                                                                display: flex;
+                                                                                    align-items: center;
+                                                                                        justify-content: center;
+                                                                                            gap: 10px;
+                                                                                                background: black;
+                                                                                                    margin: 12px auto;
+                                                                                                        padding: 15px 25px;
+                                                                                                            width: 260px;
+                                                                                                                border-radius: 30px;
+                                                                                                                    text-decoration: none;
+                                                                                                                        color: white;
+                                                                                                                            font-size: 1.1em;
+                                                                                                                                font-weight: bold;
+                                                                                                                                    transition: 0.3s;
+                                                                                                                                    }
+
+                                                                                                                                    .links a:hover {
+                                                                                                                                        background: #222; /* hover đen nhạt hơn */
+                                                                                                                                        }
+
+                                                                                                                                        .links i {
+                                                                                                                                            font-size: 1.5em;
+                                                                                                                                            
+}
